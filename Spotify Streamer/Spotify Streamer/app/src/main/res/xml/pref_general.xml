@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="country_code_list"
+        android:title="@string/pref_title_top_ten_country_code"
+        android:defaultValue=""
+        android:entries="@array/countries_list"
+        android:entryValues="@array/countries_list_code"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

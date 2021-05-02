@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:initialLayout="@layout/widget_nearest_layout"
+    android:minHeight="@dimen/widget_nearest_default_height"
+    android:minWidth="@dimen/widget_nearest_default_width"
+    android:minResizeHeight="@dimen/widget_nearest_min_resize_height"
+    android:minResizeWidth="@dimen/widget_nearest_min_resize_width"
+    android:resizeMode="horizontal"
+    android:updatePeriodMillis="0"
+    tools:ignore="UnusedAttribute" />

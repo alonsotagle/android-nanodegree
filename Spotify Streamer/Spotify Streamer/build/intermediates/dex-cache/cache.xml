@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AlonsoTagle/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-cdb79dd5cf8a72e8a9dfd52556e5b0d494403972.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-e88cba28ac81a62d1786b1e53c109220ff458eab.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/okio-1.2.0-581686ec7dd43d2c2d131dfdf28dbf175b68bea5.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-7353a753b6cb4d4bf522e9a69387752e34ed9dd9.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/exploded-aar/spotify-web-api-android-0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5f6c28ed73e6a2f5a34a84c02b8034222de11df8">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/classes-94d524d9aaa609838af579f096086812947aacb0.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-38187a8f19ced39cdb7a1cdf62cb20a1c4e4cef6.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-77c676fbcf9865c62d3d2bf2d4717d06dc7de001.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/classes-88a4408fce47f5e58ad73350abc4ab23e6e52831.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/classes-c932393235223b5f161789432a9d8ff0b6de67a1.jar" />
+    </item>
+    <item
+        jar="/Users/AlonsoTagle/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/AlonsoTagle/Documents/Proyectos/Nanodegree/app/build/intermediates/pre-dexed/debug/gson-2.3.1-2a46cf07737ff564326e4d87aac9f9c61bfbb51c.jar" />
+    </item>
+
+</items>

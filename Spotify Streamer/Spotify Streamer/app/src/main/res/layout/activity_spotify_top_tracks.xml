@@ -1,0 +1,7 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spotify_fragment_container_top_tracks"
+    android:name="com.alonsotagle.nanodegree.spotify.SpotifyTopTracksActivityFragment"
+    tools:layout="@layout/spotify_fragment_top_tracks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

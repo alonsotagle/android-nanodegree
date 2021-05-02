@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Common padding and margin -->
+    <dimen name="general_padding">10dp</dimen>
+    <dimen name="general_margin">15dp</dimen>
+    <dimen name="general_zero">0dp</dimen>
+
+    <!-- Spotify Streamer Image Sizes-->
+    <dimen name="artist_image_padding">10dp</dimen>
+    <dimen name="artist_image_size">90dp</dimen>
+
+    <!-- Spotify Streamer Title Sizes-->
+    <dimen name="artist_name_height_size">90dp</dimen>
+
+    <!-- Artist top tracks -->
+    <dimen name="artist_top_tracks_container_info_size">90dp</dimen>
+    <dimen name="artist_info_height">45dp</dimen>
+    <dimen name="artist_info_padding">3dp</dimen>
+
+    <!-- Spotify Player -->
+    <dimen name="player_song_image_size">320dp</dimen>
+    <dimen name="player_buttons_size">60dp</dimen>
+    <dimen name="player_button_margin">5dp</dimen>
+</resources>

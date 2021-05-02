@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/detail_card_elevation"
+    app:cardPreventCornerOverlap="false">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="3">
+
+        <ImageView
+            android:id="@+id/home_crest"
+            android:layout_width="0dp"
+            android:maxWidth="48dp"
+            android:maxHeight="48dp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:src="@drawable/no_icon" />
+
+        <TextView
+            android:id="@+id/score_textview"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/score_text"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:text="@string/test_text" />
+
+        <ImageView
+            android:id="@+id/away_crest"
+            android:layout_width="0dp"
+            android:maxWidth="48dp"
+            android:maxHeight="48dp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:src="@drawable/no_icon" />
+
+        <android.support.v7.widget.Space
+            android:layout_height="@dimen/detail_view_padding_vertical"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/home_name"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/team_names_text"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:text="Test1" />
+
+        <TextView
+            android:id="@+id/data_textview"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:text="@string/test_text" />
+
+        <TextView
+            android:id="@+id/away_name"
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/team_names_text"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            tools:text="@string/test_text" />
+
+        <android.support.v7.widget.Space
+            android:layout_height="@dimen/detail_view_padding_vertical"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <FrameLayout
+            android:id="@+id/details_fragment_container"
+            android:layout_width="0dp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="3"/>
+
+    </android.support.v7.widget.GridLayout>
+
+
+</android.support.v7.widget.CardView>

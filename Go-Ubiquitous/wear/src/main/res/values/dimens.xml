@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Y Offsets -->
+    <dimen name="digital_time_y_offset">90dp</dimen>
+    <dimen name="digital_date_y_offset">110dp</dimen>
+    <dimen name="digital_divider_y_offset">125dp</dimen>
+    <dimen name="digital_weather_y_offset">160dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_time_size">40sp</dimen>
+    <dimen name="text_date_size">15sp</dimen>
+    <dimen name="text_temperature_size">25sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_right_high_temperature">10dp</dimen>
+    <dimen name="padding_right_weather_icon">10dp</dimen>
+</resources>

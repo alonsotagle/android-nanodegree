@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_horizonal_margin">2dp</dimen>
+    <dimen name="share_button_margin">150dp</dimen>
+    <dimen name="team_names_text">17sp</dimen>
+    <dimen name="score_text">30sp</dimen>
+    <dimen name="league_text">15sp</dimen>
+
+    <dimen name="detail_view_padding_vertical">8dp</dimen>
+
+    <dimen name="detail_card_elevation">6dp</dimen>
+
+    <!-- Nearest Game Widget -->
+    <dimen name="widget_nearest_default_width">110dp</dimen>
+    <dimen name="widget_nearest_default_height">40dp</dimen>
+    <dimen name="widget_nearest_min_resize_width">80dp</dimen>
+    <dimen name="widget_nearest_min_resize_height">@dimen/widget_nearest_default_height</dimen>
+    <dimen name="widget_nearest_large_width">220dp</dimen>
+</resources>

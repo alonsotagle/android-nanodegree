@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main_title"
+        android:textSize="25sp" />
+
+    <Button
+        style="@style/ButtonAppTheme"
+        android:id="@+id/main_spotify"
+        android:text="@string/main_spotify"
+        android:layout_below="@+id/main_label" />
+
+    <Button
+        style="@style/ButtonAppTheme"
+        android:id="@+id/main_scores"
+        android:text="@string/main_scores"
+        android:layout_below="@+id/main_spotify" />
+
+    <Button
+        style="@style/ButtonAppTheme"
+        android:id="@+id/main_library"
+        android:text="@string/main_library"
+        android:layout_below="@+id/main_scores" />
+
+    <Button
+        style="@style/ButtonAppTheme"
+        android:id="@+id/main_bigger"
+        android:text="@string/main_bigger"
+        android:layout_below="@+id/main_library" />
+
+    <Button
+        style="@style/ButtonAppTheme"
+        android:id="@+id/main_reader"
+        android:text="@string/main_reader"
+        android:layout_below="@+id/main_bigger" />
+
+    <Button
+        style="@style/ButtonCapstoneAppTheme"
+        android:id="@+id/main_capstone"
+        android:text="@string/main_capstone"
+        android:layout_below="@+id/main_reader" />
+
+</RelativeLayout>

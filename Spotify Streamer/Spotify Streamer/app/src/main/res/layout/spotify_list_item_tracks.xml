@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/general_padding">
+
+    <ImageView
+        android:layout_width="@dimen/artist_image_size"
+        android:layout_height="@dimen/artist_image_size"
+        android:id="@+id/album_image"
+        android:src="@drawable/spotifyicon"
+        android:padding="@dimen/artist_image_padding" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/artist_top_tracks_container_info_size"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center_vertical"
+            android:id="@+id/song_name"
+            android:padding="@dimen/artist_info_padding"
+            tools:text="@string/spotify_song_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center_vertical"
+            android:id="@+id/album_name"
+            android:padding="@dimen/artist_info_padding"
+            tools:text="@string/spotify_album_name" />
+    </LinearLayout>
+</LinearLayout>

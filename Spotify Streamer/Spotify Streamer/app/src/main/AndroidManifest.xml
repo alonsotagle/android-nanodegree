@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alonsotagle.nanodegree" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@drawable/playericon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".spotify.SpotifyActivity"
+            android:label="@string/spotify_searcher_title" >
+        </activity>
+        <activity
+            android:name=".spotify.SpotifyTopTracksActivity"
+            android:label="@string/spotify_top_tracks_title" >
+        </activity>
+        <activity
+            android:name=".spotify2.SpotifyPlayerActivity"
+            android:label="@string/title_activity_spotify_player"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <service android:name=".spotify2.SpotifyPlayerService" />
+
+        <receiver android:name=".spotify2.NotificationNextButtonListener" />
+        <receiver android:name=".spotify2.NotificationPlayPauseButtonListener" />
+        <receiver android:name=".spotify2.NotificationPrevButtonListener" />
+        <receiver android:name=".spotify2.NotificationCancelButtonListener" />
+
+        <activity
+            android:name=".spotify2.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

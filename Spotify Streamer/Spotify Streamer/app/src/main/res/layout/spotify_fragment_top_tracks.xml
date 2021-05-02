@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/general_zero"
+    android:paddingRight="@dimen/general_zero"
+    android:paddingTop="@dimen/general_zero"
+    android:paddingBottom="@dimen/general_zero"
+    tools:context="com.alonsotagle.nanodegree.spotify.SpotifyTopTracksActivityFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_spotify_songs_results"
+        tools:listitem="@layout/spotify_list_item_tracks">
+    </ListView>
+</RelativeLayout>
